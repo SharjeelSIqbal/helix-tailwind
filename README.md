@@ -24,3 +24,8 @@ npm tst
 1. Install the [Helix CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/helix-cli`
 1. Start Helix Pages Proxy: `hlx up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
+
+
+## Basic Component Structure for Styling
+
+<img width="920" alt="basic-block-structure" src="https://user-images.githubusercontent.com/50930123/173034054-e44ddc4b-2c07-49b0-a21e-eaa5ac8eeabd.png">
