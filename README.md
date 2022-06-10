@@ -98,6 +98,29 @@ Insert Horizontal Line
 
 11. Finished now start styling the components with the @apply directive from Tailwind.
 
+### Creating a variation
+
+1. Create a table underneath your component. 
+
+![create-a-table](https://user-images.githubusercontent.com/50930123/173040294-eb548449-bce4-4a25-8384-e93180d12229.gif)
+
+
+2. Add 'Section Metadata' to the head of the table.
+
+
+3. Add 'Style' to the first column and the variation you'd like on the right.
+
+
+<img width="850" alt="variation" src="https://user-images.githubusercontent.com/50930123/173138672-2e9f7407-b994-44c3-b816-365971b09559.png">
+
+4. Variation type will be added to the outer most layer to your component, style as needed.
+
+
+<img width="850" alt="variation" src="https://user-images.githubusercontent.com/50930123/173138636-7458c12a-7ee1-472b-9512-30782fa85673.png">
+
+
+
+
 ### Author
 
 <img width="626" alt="Screen Shot 2022-06-10 at 3 07 13 AM" src="https://user-images.githubusercontent.com/50930123/173043034-4e36aa37-ba9c-4e35-998a-1310aeb58b5c.png">
