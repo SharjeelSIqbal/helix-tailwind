@@ -67,7 +67,7 @@ Insert Horizontal Line
 2. Although the boiler plate has given a good start, to avoid styling by speicifity use JS to created nested divs and apply classNames.
 
 
-3. Create an exported function, 'decorate', with one parameter, 'block', this will be the portion where we can attach class names to nested <divs>. Helix will take care of calling this function when it's authored onto a page so there's no need to import it anywhere.
+3. Create an exported function, 'decorate', with one parameter, 'block', this will be the portion where we can attach class names to nested divs. Helix will take care of calling this function when it's authored onto a page so there's no need to import it anywhere.
 
 
 4. Understanding the tables HTML is vital to easy development. The basic structure follows: 
@@ -87,7 +87,9 @@ Insert Horizontal Line
 8. Apply class names as needed to the nested elements. 
 
 <img width="920" alt="create-a-block" src="https://user-images.githubusercontent.com/50930123/173059750-d87d79db-0a98-4b7f-b3ae-dc5706e5e5c8.png">
-9. Finished! Begin styling now.
+
+
+9. Finished now start styling your components with the @apply directive from Tailwind.
 
 ### Author
 
