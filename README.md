@@ -87,6 +87,9 @@ Insert Horizontal Line
 
 9. Delete additional html elements that are providing space (not necessary).
 
+
+<img width="920" alt="create-a-block" src="https://user-images.githubusercontent.com/50930123/173133684-6147a0f7-6c32-4245-b07d-811b17b7c913.png">
+
 10. Apply class names as needed to the nested elements. 
 
 <img width="920" alt="create-a-block" src="https://user-images.githubusercontent.com/50930123/173059750-d87d79db-0a98-4b7f-b3ae-dc5706e5e5c8.png">
