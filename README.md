@@ -59,9 +59,12 @@ Insert Horizontal Line
 
 ### Create a structure.
 
-1. By using the boiler plates code, it nests your component within 3 divs
+1. By using the boiler plates code, it nests your component in a wrapper
+
    a. [component]-container
+
    b. [component]-wrapper
+
    c. [component]
 
 
@@ -112,7 +115,7 @@ Insert Horizontal Line
 
 ### Creating a variation
 
-1. Create a table underneath your component. 
+1. Create a table underneath your component.
 
 ![create-a-table-variation](https://user-images.githubusercontent.com/50930123/173140693-6841ed0c-165b-4025-b74b-c7ccc89edc5e.gif)
 
@@ -132,6 +135,3 @@ Insert Horizontal Line
 
 
 ![card-variation-black](https://user-images.githubusercontent.com/50930123/173141314-4639959a-0182-4b7b-9989-b7dc43f44333.gif)
-
-
-
