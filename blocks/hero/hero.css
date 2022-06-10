@@ -1,13 +1,13 @@
 /* block specific CSS goes here */
 
 main .hero-container > div {
-    max-width: unset;
+    @apply max-w-[unset];
 }
-  
+
 main .hero-container {
     padding: 0;
 }
-  
+
 main .hero {
     position: relative;
     padding: 32px;

@@ -8,7 +8,10 @@
     "test:watch": "npm test -- --watch",
     "lint:js": "eslint .",
     "lint:css": "stylelint 'blocks/**/*.css' 'styles/*.css'",
-    "lint": "npm run lint:js && npm run lint:css"
+    "lint": "npm run lint:js && npm run lint:css",
+    "build:watch": "postcss ./styles/index.css -o ./dist/index.css -w",
+    "build": "parcel build styles/index.css",
+    "watch": "parcel watch styles/index.css"
   },
   "repository": {
     "type": "git",
@@ -21,18 +24,37 @@
   },
   "homepage": "https://github.com/adobe/helix-project-boilerplate#readme",
   "devDependencies": {
-    "@babel/core": "7.18.2",
-    "@babel/eslint-parser": "7.18.2",
+    "@babel/core": "7.18.0",
+    "@babel/eslint-parser": "7.17.0",
+    "@esm-bundle/chai": "4.3.4-fix.0",
+    "@web/test-runner": "0.13.28",
+    "@web/test-runner-commands": "0.6.1",
+    "autoprefixer": "^10.4.7",
     "chai": "4.3.6",
-    "eslint": "8.17.0",
+    "eslint": "8.16.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.26.0",
-    "@esm-bundle/chai": "4.3.4-fix.0",
-    "@web/test-runner": "0.13.30",
-    "@web/test-runner-commands": "0.6.2",
+    "parcel": "^2.0.1",
+    "parcel-namer-rewrite": "^2.0.0-rc.1",
+    "postcss": "^8.4.4",
+    "postcss-custom-properties": "^12.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-url": "^10.1.3",
+    "cssnano": "^5.0.12",
     "sinon": "14.0.0",
-    "stylelint": "14.8.5",
+    "stylelint": "14.8.3",
     "stylelint-config-prettier": "9.0.3",
-    "stylelint-config-standard": "25.0.0"
-  }
+    "stylelint-config-standard": "25.0.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "parcel-namer-rewrite": {
+    "chain": "@parcel/namer-default",
+    "rules": {
+      "(.*?)(\\.[a-f0-9]{8})?\\.(ttf|woff2?)": "resources/fonts/$1.$3",
+      "(.*?)(\\.[a-f0-9]{8})?\\.(svg|png|gif|jpg|jpeg|webp)": "resources/images/$1.$3",
+      "(.*?)(\\.[a-f0-9]{8})?\\.(tsx|js|ts)": "js/$1.$3",
+      "(.*?)(\\.[a-f0-9]{8})?\\.(css|scss|less)": "css/$1.$3"
+    }
+  },
+  "dependencies": {}
 }

@@ -1,31 +1,36 @@
-.cards > ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 16px;
+
+.cards-row {
+    @apply flex tablet:flex-col;
 }
 
-.cards > ul > li {
-    border: 1px solid var(--highlight-background-color);
-    background-color: var(--background-color)
+.card {
+    @apply w-4/12 m-2 rounded-md  border-slate-500 shadow-xl py-4 px-4 font-raleway;
+    @apply tablet:w-full tablet:flex items-center;
+    @apply mobile:flex-col;
 }
 
-.cards .cards-card-body {
-    margin: 16px;
+.card p {
+    @apply font-roboto;
 }
 
-.cards .cards-card-image {
-    line-height: 0;
+.card .button-container {
+     @apply mb-2;
+}
+.card-image-container {
+    @apply m-0 h-[220px];
+    @apply tablet:flex tablet:w-[40%] tablet:mr-4;
+    @apply mobile:w-full;
 }
 
-.cards .cards-card-body > *:first-child {
-    margin-top: 0;
+.card-image-container picture {
+    @apply tablet:w-full;
 }
 
-.cards > ul > li img {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+.card-content {
+    @apply tablet:w-[60%];
+    @apply mobile:w-full;
+}
+
+.card-image-container img {
+    @apply w-full h-full;
 }

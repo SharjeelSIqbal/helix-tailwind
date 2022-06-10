@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&family=Roboto&family=Spinnaker&display=swap');
+
+@import 'tailwind';
+
+
+@import 'styles.css';
+@import 'lazy-styles.css';
+@import '../blocks/cards/cards.css';
+@import '../blocks/example/example.css';
+@import '../blocks/footer/footer.css';
+@import '../blocks/header/header.css';
+@import '../blocks/hero/hero.css';
