@@ -49,8 +49,10 @@ It's important to know that the first row of the table will be the name of the c
 ## Structuring the component
 
 1. Create your component folder within the block directory. 
-2. In that folder add two files [component].css and [component].js
+2. Within your component folder add two files [component].css and [component].js
 3. Start coding.
+
+<img width="920" alt="Screen Shot 2022-06-10 at 5 02 23 AM" src="https://user-images.githubusercontent.com/50930123/173060332-9bf82c46-b428-4f83-97d6-376f05d36aab.png">
 
 
 ### Create a structure.
