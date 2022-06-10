@@ -83,13 +83,16 @@ Insert Horizontal Line
 
 7. Next for each row of the table the card will concatenate the innerHTML of the block's children. 
 
+8. For the image we want to seperate it from the rest of the content, so we need to do another for loop to get the content and place them inside its own block of code. 
 
-8. Apply class names as needed to the nested elements. 
+9. Delete additional html elements that are providing space (not necessary).
+
+10. Apply class names as needed to the nested elements. 
 
 <img width="920" alt="create-a-block" src="https://user-images.githubusercontent.com/50930123/173059750-d87d79db-0a98-4b7f-b3ae-dc5706e5e5c8.png">
 
 
-9. Finished now start styling your components with the @apply directive from Tailwind.
+10. Finished now start styling your components with the @apply directive from Tailwind.
 
 ### Author
 
@@ -97,7 +100,9 @@ Insert Horizontal Line
    
 ### Published
 
-<img width="1440" alt="Screen Shot 2022-06-10 at 5 44 03 AM" src="https://user-images.githubusercontent.com/50930123/173066798-a7c23dbc-303f-446d-8343-bcc5afcf53c5.png">
+<img width="1440" alt="Screen Shot 2022-06-10 at 11 39 17 AM" src="https://user-images.githubusercontent.com/50930123/173129721-9c8b2155-49ca-4988-9d78-0f57c0486786.png">
+
+
 
 
 
