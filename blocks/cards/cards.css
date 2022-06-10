@@ -19,7 +19,7 @@
 .card-image-container {
     @apply m-0 h-[220px];
     @apply tablet:flex tablet:w-[40%] tablet:mr-4;
-    @apply mobile:w-full;
+    @apply mobile:w-full mobile:mr-0;
 }
 
 .card-image-container picture {
@@ -33,4 +33,8 @@
 
 .card-image-container img {
     @apply w-full h-full;
+}
+
+.dark.cards-container .card {
+    @apply bg-gray-900 text-white;
 }
