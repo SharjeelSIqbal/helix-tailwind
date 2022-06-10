@@ -110,8 +110,8 @@ Insert Horizontal Line
 
 3. Add 'Style' to the first column and the variation you'd like on the right.
 
+![create-a-variation](https://user-images.githubusercontent.com/50930123/173139206-419a171f-6da7-478e-9520-4af9914461aa.gif)
 
-<img width="850" alt="variation" src="https://user-images.githubusercontent.com/50930123/173138672-2e9f7407-b994-44c3-b816-365971b09559.png">
 
 4. Variation type will be added to the outer most layer to your component, style as needed.
 
