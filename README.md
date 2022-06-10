@@ -90,7 +90,8 @@ Insert Horizontal Line
 10. Apply class names as needed to the nested elements. 
 
 
-<img width="920" alt="create-a-block" src="https://user-images.githubusercontent.com/50930123/173133684-6147a0f7-6c32-4245-b07d-811b17b7c913.png">
+<img width="920" alt="create-a-block" src="https://user-images.githubusercontent.com/50930123/173134276-ebe0756f-74fb-422c-a9e0-91a5124589ed.png">
+
 
 
 
