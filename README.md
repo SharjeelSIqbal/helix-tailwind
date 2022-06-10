@@ -31,4 +31,5 @@ npm tst
 <img width="625" alt="image" src="https://user-images.githubusercontent.com/50930123/173034406-51aa107d-5e29-4ece-ac8d-84e7b134ac64.png">
 
 ### Developer
-<img width="920" alt="basic-block-structure" src="https://user-images.githubusercontent.com/50930123/173034054-e44ddc4b-2c07-49b0-a21e-eaa5ac8eeabd.png">
+<img width="859" alt="basic-block-structure" src="https://user-images.githubusercontent.com/50930123/173034615-b949bba5-81d6-4cbe-af81-f476f4a695ca.png">
+
