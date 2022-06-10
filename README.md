@@ -28,21 +28,22 @@ npm tst
 ## Building a Component
 
 ### Create a table.
->Insert
->Create table
->[Choose amount of columns and rows]
->Merge entire first row
+Insert table with as many rows and columns as needed and merge entirety of the first row.
+
 ![create-a-table](https://user-images.githubusercontent.com/50930123/173040294-eb548449-bce4-4a25-8384-e93180d12229.gif)
 
 
 ### Name the table and add the content inside.
+
 It's important to know that the first row of the table will be the name of the compoent. Any tables with more than one column for the heading will have to be merged into one cell for the table title.
+
+
 ![add-content](https://user-images.githubusercontent.com/50930123/173041119-9033a5c8-9fc9-494f-9d86-bd3f22686717.gif)
 
 
 ### Create a divider to seperate components and sections.
->Insert 
->Horizontal Line
+Insert Horizontal Line
+
 ![divider](https://user-images.githubusercontent.com/50930123/173042807-1f44d4a1-ee42-4d13-95b8-ce6e931a72cb.gif)
 
 
@@ -61,18 +62,35 @@ It's important to know that the first row of the table will be the name of the c
    a. [component]-container
    b. [component]-wrapper
    c. [component]
+
+
 2. Although the boiler plate has given a good start, to avoid styling by speicifity use JS to created nested divs and apply classNames.
+
+
 3. Create an exported function, 'decorate', with one parameter, 'block', this will be the portion where we can attach class names to nested <divs>. Helix will take care of calling this function when it's authored onto a page so there's no need to import it anywhere.
+
+
 4. Understanding the tables HTML is vital to easy development. The basic structure follows: 
+
 <img width="869" alt="helix-table-structure" src="https://user-images.githubusercontent.com/50930123/173056367-ea045215-8d76-4f5c-aef7-5d3292eeb555.png">
+
+
 5. The block parameter will give the [component] level div as listed above. 
+
+
 6. Create a new div element and give it a class name, in this case it will be the 'cards-row' so we can line up the cards much easier.
+
+
 7. Next for each row of the table the card will concatenate the innerHTML of the block's children. 
+
+
 8. Apply class names as needed to the nested elements. 
+
 <img width="920" alt="create-a-block" src="https://user-images.githubusercontent.com/50930123/173059750-d87d79db-0a98-4b7f-b3ae-dc5706e5e5c8.png">
 9. Finished! Begin styling now.
 
 ### Author
+
 <img width="626" alt="Screen Shot 2022-06-10 at 3 07 13 AM" src="https://user-images.githubusercontent.com/50930123/173043034-4e36aa37-ba9c-4e35-998a-1310aeb58b5c.png">
    
 ### Published
