@@ -24,6 +24,7 @@ npm tst
 1. Install the [Helix CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/helix-cli`
 1. Start Helix Pages Proxy: `hlx up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
+1. Follow Helix tutorial to get set up https://www.hlx.live/developer/tutorial, then come back to follow the steps below.
 
 ## Building a Component
 
